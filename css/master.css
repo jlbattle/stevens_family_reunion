@@ -164,13 +164,13 @@ div#mainContentSection h1{
 
 .new_box {
   background-color: #a32638;
-  height: 150px; 
+  height: 130px; 
 }
 
 .new_box_textbox {
   width: 128px;
   display: inline-block;
-  padding: 53px 0px 7px 35px;
+  padding: 41px 0px 7px 35px;
   text-decoration: none;
   float: left;
   color: white;

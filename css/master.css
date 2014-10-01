@@ -200,6 +200,10 @@ background-position: 0px -36px;
   font-weight: bold;
 }
 
+#centered p {
+  text-align: center;
+}
+
 /********* Main Content Boxes *************/
 div#mainContentBoxes{
   overflow: hidden;

@@ -1,0 +1,302 @@
+/*********General Styles *************/
+
+body{
+  color: #7d7d7d;
+  font-size: 20pt;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+.cAlign{
+  width: 960px;
+  margin: 0px auto;
+
+  overflow: hidden;
+}
+
+a {text-decoration: none}
+a:hover {text-decoration: underline;}
+
+p{
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+/********* Top *************/
+div#topRedBar{
+  height: 5px;
+  background-color: #a32638;
+}
+
+div#topHeader{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a#logoFigure{
+  float: left;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Lato", Arial, sans-serif;
+}
+
+h1{ font-size: 18pt;}
+h2{ font-size: 14pt; font-weight: bold;}
+h3{ font-size: 12pt font-weight: bold;}
+h4{ font-size: ;}
+h5{ font-size: ;}
+
+div.oneFourth{
+  float: left;
+  width: 22%;
+  margin-right: 3%;
+}
+
+div.oneHalf{
+  float: left;
+  width: 47%;
+  margin-right: 3%;
+}
+
+div.threeFourths{
+  float: left;
+  width: 72%;
+  margin-right: 3%;
+}
+
+div.oneThird{
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
+
+div.oneThird1{
+  float: left;
+  width: 310px;
+  margin-right: 1%;
+}
+
+div.oneThird_marginleft{
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+}
+
+div.twoThirds{
+  float: left;
+  width: 63%;
+  margin-right: 3%;
+}
+
+/********* Menu *************/
+ul#nav{
+  float: right;
+  margin-top: 20px;
+}
+
+ul#nav li{
+  float: left;
+  text-transform: uppercase;
+}
+
+ul#nav li a{
+  color: #b5b5b5;
+
+  margin-left: 10px;
+  padding: 5px 8px;
+
+  font-size: 13px;
+
+  /********* CSS3 Transitions *************/
+  transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+
+}
+
+ul#nav li a:hover{
+  text-transform: uppercase;
+  color: #a32638;
+
+  text-decoration: none;
+}
+div#activeMenuItem{
+  color: #a32638;
+}
+
+/********* Slider *************/
+div#sliderSection{
+
+/*
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+*/
+  padding: 24px 0;
+}
+
+
+/********* Main Content *************/
+div#mainSection{
+  font-size: 16px;
+  margin: 25px auto 40px;
+}
+
+div#mainContentSection{
+  overflow: hidden;
+}
+
+div#mainContentSection h1{
+  font-size: 20pt;
+  font-weight: bold;
+
+}
+
+.mainText{
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.mainText a{
+  color: #a32638;
+}
+
+.mainText a:hover{
+}
+
+a.messageBox{
+  background-color: #a32638;
+  border: 1px solid #81202e;
+  padding: 5px 65px 5px 5px;
+  text-decoration: none;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: block;
+  color: white;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+
+a.messageBox.icon {
+padding-left: 11px;
+
+}
+
+a.messageBox.icon span{
+padding-left: 36px;
+background: url(img/facebook_logo.png) no-repeat 0 -4px;
+
+}
+
+a.button.icon.checkmark span {
+background-position: 0px -36px;
+}
+
+
+.messageBox span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/********* Main Content Boxes *************/
+div#mainContentBoxes{
+  overflow: hidden;
+  margin-top: 40px;
+  color: #a3a3a3; 
+}
+
+.contentBox{
+  background-color: #eaeaea;
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4); 
+
+  overflow: hidden;
+  padding: 25px 0px 10px 25px;
+
+}
+
+.contentBoxLeft{
+  padding: 25px 0px 20px 20px;
+  width: 45%;
+}
+
+.contentBoxTextSmall{
+  font-size: 14pt;
+}
+
+.contentBoxTextLarge{
+  font-size: 22pt;
+}
+
+.floatRightClear{
+  float: right; 
+  clear: right; 
+  margin-left: 4px; 
+
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4); 
+}
+
+
+/********* Footer *************/
+div#footerSection{
+  background-color: #a32638;
+
+  /* Gradient Backgrounds */
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a7273a), to(#9c2536));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #a7273a, #9c2536);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #a7273a, #9c2536);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #a7273a, #9c2536);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #a7273a, #9c2536);
+
+
+  margin-top: 40px;
+  border-top: 1px solid #952333;
+
+  overflow: hidden;
+}
+
+div#footerSection div.cAlign{
+  padding: 30px 0;
+
+}
+
+
+div#footerSection h3{
+  font-size: 14pt;
+  color: white;
+}
+
+
+ul#footerLinks {
+  margin-top: 7px;
+}
+
+
+ul#footerLinks li {
+  font-size: 12pt;
+  color: #d47482;
+  margin-top: 7px;
+}
+
+ul#footerLinks li a{
+  color: #d47482;
+}
+
+ul#footerLinks li a:hover{
+  color: #ec9eaa;
+  text-decoration: none;
+}
